@@ -1,0 +1,84 @@
+FCA DISP — EXTENDED COMPLAINTS RULES AND COMPENSATION
+Source: FCA Handbook DISP, Financial Ombudsman Service Rules
+
+FINANCIAL OMBUDSMAN SERVICE — COMPENSATION LIMITS
+The Financial Ombudsman Service (FOS) can consider complaints
+about most financial matters including banking, insurance,
+investments, pensions, and credit.
+
+For complaints referred to the FOS on or after 1 April 2024,
+the maximum compensation award is £415,000.
+
+For complaints referred between 1 April 2019 and 31 March 2024,
+the maximum award was £375,000.
+
+The FOS award limit applies to the financial loss element
+of a complaint. The FOS may also award compensation for
+distress and inconvenience separately.
+
+COMPLAINT RECORD KEEPING REQUIREMENTS
+Under DISP 1.9, firms must:
+(1) keep a record of each complaint received for a minimum
+period of three years from the date the complaint was received
+(2) keep records of all measures taken for resolution of
+each complaint
+(3) make complaint records available to the FCA upon request
+(4) retain records in a durable medium that allows retrieval
+
+The three year retention period applies to all complaints
+from eligible complainants regardless of outcome.
+
+For MiFID business, the retention period is five years.
+
+ELIGIBLE COMPLAINANTS
+An eligible complainant is:
+(1) a consumer — any individual acting for purposes outside
+their trade, business or profession
+(2) a micro-enterprise — a business with annual turnover
+less than two million euros and fewer than ten employees
+(3) a charity with annual income less than one million pounds
+(4) a trustee of a trust with net assets less than one
+million pounds
+(5) a small business with annual turnover less than six
+and a half million pounds
+
+COMPLAINT HANDLING PROCESS — FULL TIMELINE
+Day 0: Complaint received
+Day 3: Firm must send Summary Resolution Communication
+       if complaint resolved within 3 business days
+Day 5: Written acknowledgement must be sent if not resolved
+Week 8: Final response must be sent in all cases
+
+If the firm does not send a final response within eight weeks,
+the complainant may refer their complaint to the FOS
+regardless of whether the firm has responded.
+
+ROOT CAUSE ANALYSIS REQUIREMENTS
+Firms must carry out root cause analysis of complaints.
+This means firms must:
+(1) analyse complaints to identify the root cause
+(2) consider whether root causes affect other customers
+who have not complained
+(3) take proactive steps to remedy issues for all
+affected customers, not just those who complained
+(4) document root cause analysis findings
+(5) report significant root cause findings to senior
+management and the board
+
+ROOT CAUSE ANALYSIS AND CONSUMER DUTY
+Under the Consumer Duty, root cause analysis has become
+more important. Firms must use complaint data as one
+source of evidence when assessing whether they are
+delivering good outcomes for retail customers.
+
+Complaint patterns that suggest poor outcomes must be
+escalated to the Consumer Duty board champion.
+
+SUMMARY RESOLUTION COMMUNICATION
+A Summary Resolution Communication must:
+(1) refer to the fact that the complainant has made a
+complaint and state that the firm now considers it resolved
+(2) inform the complainant that if they remain dissatisfied
+they may refer their complaint to the FOS
+(3) provide the website address of the FOS
+(4) refer to the availability of the FOS consumer leaflet
