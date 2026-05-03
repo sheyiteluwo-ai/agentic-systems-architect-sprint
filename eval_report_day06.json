@@ -1,0 +1,178 @@
+{
+  "timestamp": "2026-05-03T12:49:22.993148",
+  "total": 10,
+  "passed": 7,
+  "failed": 3,
+  "average_score": 0.66,
+  "pass_rate": 70.0,
+  "grade": "\ud83d\udfe0 BORDERLINE \u2014 Significant improvements needed",
+  "flagged": [
+    "Q05",
+    "Q08",
+    "Q09"
+  ],
+  "results": [
+    {
+      "id": "Q01",
+      "question": "What is the main purpose of the FCA Consumer Duty?",
+      "answer": "The main purpose of the FCA Consumer Duty is to set higher expectations for the standard of care firms give consumers, ensuring that their products and services are fit for purpose, offer fair value, and help consumers make effective choices or act in their interests. It aims to advance consumer protection and competition objectives by focusing on outcomes, preventing harm before it arises, and addressing harm more quickly when it does occur. Additionally, it seeks to drive a healthy and successful financial services system where firms can thrive and consumers can make informed choices about financial products and services (FCA Consumer Duty (PS22/9), Chapter 1, pages 3 and 5).",
+      "score": 0.8,
+      "passed": true,
+      "feedback": "The AI-generated answer is factually accurate and well-grounded in the provided regulatory context. It correctly identifies the main purpose of the FCA Consumer Duty as setting higher expectations for consumer care, ensuring products and services are fit for purpose, and advancing consumer protection and competition objectives. However, the answer could be more complete by explicitly mentioning the focus on preventing harm and addressing it quickly, as well as the role in supporting a healthy financial services system. The source citation is somewhat vague and could be more precise.",
+      "breakdown": {
+        "factual_accuracy": 1.0,
+        "completeness": 0.8,
+        "grounding": 1.0,
+        "obligation_precision": 1.0,
+        "source_citation": 0.5
+      },
+      "critical_errors": []
+    },
+    {
+      "id": "Q02",
+      "question": "What are the four outcomes under the Consumer Duty?",
+      "answer": "The four outcomes under the Consumer Duty are:\n\n1. Fair value: consumers receive fair prices and quality.\n2. Suitability and treatment: consumers receive suitable products and services and receive good treatment.\n3. Confidence: consumers have strong confidence and levels of participation in markets.\n4. Access: diverse consumer needs are met.\n\nSource: FCA Consumer Duty (PS22/9), Chapter 1, page 6.",
+      "score": 1.0,
+      "passed": true,
+      "feedback": "The AI-generated answer correctly identifies the four outcomes under the Consumer Duty as outlined in the provided regulatory context. It accurately reflects the information from the source document, is complete, and cites the source appropriately.",
+      "breakdown": {
+        "factual_accuracy": 1.0,
+        "completeness": 1.0,
+        "grounding": 1.0,
+        "obligation_precision": 1.0,
+        "source_citation": 1.0
+      },
+      "critical_errors": []
+    },
+    {
+      "id": "Q03",
+      "question": "When did the Consumer Duty come into force?",
+      "answer": "The Consumer Duty came into force in two phases: from the end of July 2023, it applied to all new products and services, and all existing products and services that remain on sale or open for renewal. From the end of July 2024, the Duty will come fully into force and apply to all closed products and services. (FCA Consumer Duty (PS22/9), page 67)",
+      "score": 1.0,
+      "passed": true,
+      "feedback": "The AI-generated answer is factually accurate, complete, and well-grounded in the provided regulatory context. It correctly identifies the two-phase implementation of the Consumer Duty and uses the correct terminology. The source citation is accurate and relevant.",
+      "breakdown": {
+        "factual_accuracy": 1.0,
+        "completeness": 1.0,
+        "grounding": 1.0,
+        "obligation_precision": 1.0,
+        "source_citation": 1.0
+      },
+      "critical_errors": []
+    },
+    {
+      "id": "Q04",
+      "question": "How quickly must a firm respond to a complaint?",
+      "answer": "The context provided does not specify how quickly a firm must respond to a complaint. If you need information on complaint response times, you may need to refer to the FCA's Dispute Resolution: Complaints sourcebook (DISP) or other relevant FCA guidelines.",
+      "score": 0.7,
+      "passed": true,
+      "feedback": "The AI-generated answer correctly identifies that the provided context does not specify the complaint response time and suggests referring to the FCA's Dispute Resolution: Complaints sourcebook (DISP) for this information. However, it lacks source citation and could have been more complete by mentioning that DISP is indeed the correct source for such information.",
+      "breakdown": {
+        "factual_accuracy": 1.0,
+        "completeness": 0.7,
+        "grounding": 1.0,
+        "obligation_precision": 1.0,
+        "source_citation": 0.0
+      },
+      "critical_errors": []
+    },
+    {
+      "id": "Q05",
+      "question": "What is the maximum FOS compensation award?",
+      "answer": "The answer is not in the context provided.",
+      "score": 0.0,
+      "passed": false,
+      "feedback": "The AI-generated answer does not provide any information regarding the maximum FOS compensation award. It fails to address the question, lacks factual accuracy, completeness, grounding in the provided context, and does not cite any sources.",
+      "breakdown": {
+        "factual_accuracy": 0.0,
+        "completeness": 0.0,
+        "grounding": 0.0,
+        "obligation_precision": 0.0,
+        "source_citation": 0.0
+      },
+      "critical_errors": [
+        "The answer does not address the question about the maximum FOS compensation award and lacks any relevant information."
+      ]
+    },
+    {
+      "id": "Q06",
+      "question": "What are the four drivers of vulnerability according to FCA guidance?",
+      "answer": "The four drivers of vulnerability according to FCA guidance are:\n\n1. Health \u2014 conditions or illnesses that affect ability to carry out day-to-day tasks\n2. Life events \u2014 major life events such as bereavement, job loss or relationship breakdown\n3. Resilience \u2014 low ability to withstand financial or emotional shocks\n4. Capability \u2014 low knowledge of financial matters or low confidence in managing finances\n\n(Source: FCA Vulnerable Customers (FG21/1), page 1)",
+      "score": 1.0,
+      "passed": true,
+      "feedback": "The AI-generated answer is factually accurate, complete, and well-grounded in the provided regulatory context. It correctly identifies the four drivers of vulnerability as outlined in the FCA guidance and cites the source appropriately.",
+      "breakdown": {
+        "factual_accuracy": 1.0,
+        "completeness": 1.0,
+        "grounding": 1.0,
+        "obligation_precision": 1.0,
+        "source_citation": 1.0
+      },
+      "critical_errors": []
+    },
+    {
+      "id": "Q07",
+      "question": "Must firms carry out root cause analysis of complaints?",
+      "answer": "The provided context does not explicitly state that firms must carry out root cause analysis of complaints. However, it does mention that firms must have processes to identify the root causes of any failure to deliver certain outcomes for retail customers (FCA 2022/31, Page 47). If the context of complaints is related to these failures, then root cause analysis may be implied as part of these processes. \n\nSource: FCA 2022/31, Page 47.",
+      "score": 0.7,
+      "passed": true,
+      "feedback": "The AI-generated answer correctly identifies that firms must have processes to identify root causes of failures to deliver outcomes, which can imply root cause analysis of complaints. However, it could be more explicit in linking complaints to these failures. The use of 'must' is appropriate, but the answer could be clearer in stating that root cause analysis is a necessary part of these processes when related to complaints.",
+      "breakdown": {
+        "factual_accuracy": 0.8,
+        "completeness": 0.7,
+        "grounding": 0.8,
+        "obligation_precision": 0.7,
+        "source_citation": 0.7
+      },
+      "critical_errors": []
+    },
+    {
+      "id": "Q08",
+      "question": "How long must firms keep complaint records?",
+      "answer": "The context provided does not specify how long firms must keep complaint records.",
+      "score": 0.0,
+      "passed": false,
+      "feedback": "The AI-generated answer fails to provide any information on how long firms must keep complaint records. The provided regulatory context does not contain information relevant to the question, and the AI answer correctly identifies this lack of information. However, the answer does not attempt to provide any additional context or guidance, such as referring to other FCA rules or regulations that might address the question. The answer lacks completeness, grounding, and source citation.",
+      "breakdown": {
+        "factual_accuracy": 0.0,
+        "completeness": 0.0,
+        "grounding": 0.0,
+        "obligation_precision": 0.0,
+        "source_citation": 0.0
+      },
+      "critical_errors": []
+    },
+    {
+      "id": "Q09",
+      "question": "What must firms consider when designing products for vulnerable customers?",
+      "answer": "Firms must consider the needs of vulnerable customers at every stage of the product lifecycle. Products and services should not be designed in a way that could cause harm to vulnerable customers. (FCA Vulnerable Customers (FG21/1), Section 4; FCA Complaints Handling (DISP 1), Section 4)",
+      "score": 0.6,
+      "passed": false,
+      "feedback": "The AI-generated answer correctly states that firms must consider the needs of vulnerable customers at every stage of the product lifecycle and that products should not cause harm. However, it lacks completeness as it does not address all specific considerations such as identifying the target market, considering how product features affect vulnerable customers differently, and testing products with vulnerable customers. The use of 'must' is correct, but the answer does not differentiate between 'must' and 'should' obligations. The source citation is partially correct but incomplete as it does not reference all relevant sections.",
+      "breakdown": {
+        "factual_accuracy": 1.0,
+        "completeness": 0.5,
+        "grounding": 1.0,
+        "obligation_precision": 0.5,
+        "source_citation": 0.5
+      },
+      "critical_errors": []
+    },
+    {
+      "id": "Q10",
+      "question": "How does the Consumer Duty interact with vulnerable customer requirements?",
+      "answer": "The Consumer Duty, introduced in July 2023, builds on and strengthens the FCA's expectations around vulnerable customers. Under the Consumer Duty, firms must deliver good outcomes for all retail customers, including those with characteristics of vulnerability. The four outcomes \u2014 products and services, price and value, consumer understanding, and consumer support \u2014 all have specific implications for how firms treat vulnerable customers. (FCA Complaints Handling (DISP 1), Section 8; FCA Vulnerable Customers (FG21/1), Section 8).",
+      "score": 0.8,
+      "passed": true,
+      "feedback": "The AI-generated answer is factually accurate and well-grounded in the provided regulatory context. It correctly states that the Consumer Duty builds on and strengthens the FCA's expectations around vulnerable customers and outlines the four outcomes. However, it lacks completeness as it does not explicitly address how the Consumer Duty interacts with the specific requirements for monitoring and evaluating outcomes for vulnerable customers. Additionally, while it mentions the source documents, it does not provide specific section numbers or details, which affects the source citation score.",
+      "breakdown": {
+        "factual_accuracy": 1.0,
+        "completeness": 0.7,
+        "grounding": 1.0,
+        "obligation_precision": 1.0,
+        "source_citation": 0.5
+      },
+      "critical_errors": []
+    }
+  ]
+}
