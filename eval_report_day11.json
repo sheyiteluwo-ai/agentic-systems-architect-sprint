@@ -1,0 +1,282 @@
+{
+  "summary": {
+    "eval_date": "2026-05-05T17:40:03.367036+00:00",
+    "sprint_day": 11,
+    "total_queries": 20,
+    "pass_count": 9,
+    "flag_count": 1,
+    "fail_count": 10,
+    "error_count": 0,
+    "average_faithfulness_score": 0.465,
+    "hallucination_rate_percent": 55.0,
+    "faithfulness_threshold": 0.7,
+    "guardrail_active": true,
+    "retrieval_method": "OpenAI text-embedding-3-small + cosine similarity (numpy)",
+    "model": "gpt-4o",
+    "dataset": "FCA Compliance \u2014 20 queries"
+  },
+  "results": [
+    {
+      "query_num": 1,
+      "question": "What is the FCA Consumer Duty and when did it come into force?",
+      "answer": "The context provided does not contain information about the FCA Consumer Duty or its implementation date.",
+      "faithfulness_score": 1.0,
+      "verdict": "PASS",
+      "reasoning": "The AI answer accurately reflects the lack of information in the provided sources regarding the FCA Consumer Duty and its implementation date.",
+      "unsupported_claims": [],
+      "guardrail_action": "SERVE",
+      "top_similarity": 0.4844,
+      "duration_ms": 1133.2
+    },
+    {
+      "query_num": 2,
+      "question": "What are the four outcomes required under Consumer Duty?",
+      "answer": "The context provided does not specify the four outcomes required under Consumer Duty.",
+      "faithfulness_score": 1.0,
+      "verdict": "PASS",
+      "reasoning": "The AI answer is faithful as the source documents do not provide information on the four outcomes required under Consumer Duty.",
+      "unsupported_claims": [],
+      "guardrail_action": "SERVE",
+      "top_similarity": 0.552,
+      "duration_ms": 1071.4
+    },
+    {
+      "query_num": 3,
+      "question": "How should firms evidence compliance with Consumer Duty?",
+      "answer": "The context does not provide specific details on how firms should evidence compliance with Consumer Duty.",
+      "faithfulness_score": 0.2,
+      "verdict": "FAIL",
+      "reasoning": "The AI answer is not faithful as it incorrectly states that the context does not provide details on evidencing compliance, while the source documents do provide relevant information.",
+      "unsupported_claims": [
+        "The context does not provide specific details on how firms should evidence compliance with Consumer Duty."
+      ],
+      "guardrail_action": "BLOCK",
+      "top_similarity": 0.6072,
+      "duration_ms": 2634.3
+    },
+    {
+      "query_num": 4,
+      "question": "What does the FCA expect firms to do for vulnerable customers?",
+      "answer": "The FCA expects firms to treat vulnerable customers fairly and to achieve outcomes for vulnerable customers that are as good as those for other customers. Firms should embed the fair treatment of vulnerable customers in their practices, ensure staff have the skills to deal sensitively with vulnerabl...",
+      "faithfulness_score": 0.9,
+      "verdict": "PASS",
+      "reasoning": "The AI answer accurately reflects the FCA's expectations as outlined in the source documents, including fair treatment, achieving good outcomes, embedding practices, staff skills, and communication needs.",
+      "unsupported_claims": [],
+      "guardrail_action": "SERVE",
+      "top_similarity": 0.7847,
+      "duration_ms": 1533.2
+    },
+    {
+      "query_num": 5,
+      "question": "How does Consumer Duty apply to retail and wholesale markets?",
+      "answer": "The context provided does not contain specific information on how Consumer Duty applies to retail and wholesale markets.",
+      "faithfulness_score": 1.0,
+      "verdict": "PASS",
+      "reasoning": "The AI answer accurately reflects the lack of information in the provided sources regarding how Consumer Duty applies to retail and wholesale markets.",
+      "unsupported_claims": [],
+      "guardrail_action": "SERVE",
+      "top_similarity": 0.4353,
+      "duration_ms": 948.4
+    },
+    {
+      "query_num": 6,
+      "question": "What is the FCA's definition of a complaint?",
+      "answer": "The context provided does not include the FCA's definition of a complaint.",
+      "faithfulness_score": 0.0,
+      "verdict": "FAIL",
+      "reasoning": "The AI answer is not faithful as it does not provide the FCA's definition of a complaint, which is the question asked.",
+      "unsupported_claims": [
+        "The context provided does not include the FCA's definition of a complaint."
+      ],
+      "guardrail_action": "BLOCK",
+      "top_similarity": 0.6007,
+      "duration_ms": 1034.0
+    },
+    {
+      "query_num": 7,
+      "question": "How many business days does a firm have to resolve a complaint?",
+      "answer": "The context provided does not specify the number of business days a firm has to resolve a complaint.",
+      "faithfulness_score": 1.0,
+      "verdict": "PASS",
+      "reasoning": "The AI answer accurately reflects the lack of specific information in the provided source documents regarding the number of business days a firm has to resolve a complaint.",
+      "unsupported_claims": [],
+      "guardrail_action": "SERVE",
+      "top_similarity": 0.5205,
+      "duration_ms": 3094.6
+    },
+    {
+      "query_num": 8,
+      "question": "When must a firm send a final response letter?",
+      "answer": "The context provided does not specify when a firm must send a final response letter.",
+      "faithfulness_score": 0.0,
+      "verdict": "FAIL",
+      "reasoning": "The AI answer is not faithful as it claims the context does not specify when a firm must send a final response letter, but it does not provide any evidence from the source documents to support this claim. The source documents provided do not contain information about the timing of sending a final response letter, making the AI's statement unsubstantiated.",
+      "unsupported_claims": [
+        "The context provided does not specify when a firm must send a final response letter."
+      ],
+      "guardrail_action": "BLOCK",
+      "top_similarity": 0.366,
+      "duration_ms": 1079.8
+    },
+    {
+      "query_num": 9,
+      "question": "What information must be included in a final response letter?",
+      "answer": "The context provided does not include specific information about what must be included in a final response letter.",
+      "faithfulness_score": 0.0,
+      "verdict": "FAIL",
+      "reasoning": "The AI answer is not faithful as it claims the context does not include specific information about what must be included in a final response letter, but the source documents do not provide any relevant information on this topic.",
+      "unsupported_claims": [
+        "The context provided does not include specific information about what must be included in a final response letter."
+      ],
+      "guardrail_action": "BLOCK",
+      "top_similarity": 0.3594,
+      "duration_ms": 840.1
+    },
+    {
+      "query_num": 10,
+      "question": "Can a firm charge customers for making a complaint?",
+      "answer": "The context provided does not specify whether a firm can charge customers for making a complaint.",
+      "faithfulness_score": 0.0,
+      "verdict": "FAIL",
+      "reasoning": "The AI answer does not address the question directly and fails to provide information from the source documents regarding whether firms can charge customers for making a complaint.",
+      "unsupported_claims": [
+        "The context provided does not specify whether a firm can charge customers for making a complaint."
+      ],
+      "guardrail_action": "BLOCK",
+      "top_similarity": 0.53,
+      "duration_ms": 812.1
+    },
+    {
+      "query_num": 11,
+      "question": "What triggers a complaint escalation to the Financial Ombudsman?",
+      "answer": "The context provided does not specify what triggers a complaint escalation to the Financial Ombudsman.",
+      "faithfulness_score": 0.0,
+      "verdict": "FAIL",
+      "reasoning": "The AI answer is not faithful as it incorrectly states that the context does not specify what triggers a complaint escalation to the Financial Ombudsman. The source documents do not provide information on the triggers for escalation, but the AI answer should not assume the absence of information in the context.",
+      "unsupported_claims": [
+        "The context provided does not specify what triggers a complaint escalation to the Financial Ombudsman."
+      ],
+      "guardrail_action": "BLOCK",
+      "top_similarity": 0.6206,
+      "duration_ms": 896.0
+    },
+    {
+      "query_num": 12,
+      "question": "What records must firms keep about complaints?",
+      "answer": "The context provided does not specify what records firms must keep about complaints.",
+      "faithfulness_score": 0.0,
+      "verdict": "FAIL",
+      "reasoning": "The AI answer incorrectly states that the context does not specify what records firms must keep about complaints, while Source 2 provides specific requirements for documenting root cause analysis findings and reporting significant findings to senior management.",
+      "unsupported_claims": [
+        "The context provided does not specify what records firms must keep about complaints."
+      ],
+      "guardrail_action": "BLOCK",
+      "top_similarity": 0.5771,
+      "duration_ms": 1123.5
+    },
+    {
+      "query_num": 13,
+      "question": "How should firms handle complaints from vulnerable customers differently?",
+      "answer": "The context provided does not specifically address how firms should handle complaints from vulnerable customers differently.",
+      "faithfulness_score": 0.0,
+      "verdict": "FAIL",
+      "reasoning": "The AI answer incorrectly states that the context does not address handling complaints from vulnerable customers differently, while the sources provide relevant guidance.",
+      "unsupported_claims": [
+        "The context provided does not specifically address how firms should handle complaints from vulnerable customers differently."
+      ],
+      "guardrail_action": "BLOCK",
+      "top_similarity": 0.6632,
+      "duration_ms": 971.5
+    },
+    {
+      "query_num": 14,
+      "question": "What is a summary resolution communication?",
+      "answer": "The context provided does not contain information about what a summary resolution communication is.",
+      "faithfulness_score": 1.0,
+      "verdict": "PASS",
+      "reasoning": "The AI answer is faithful as the source documents do not provide information about a summary resolution communication.",
+      "unsupported_claims": [],
+      "guardrail_action": "SERVE",
+      "top_similarity": 0.4096,
+      "duration_ms": 1174.3
+    },
+    {
+      "query_num": 15,
+      "question": "How long must firms retain complaint records?",
+      "answer": "The context provided does not specify how long firms must retain complaint records.",
+      "faithfulness_score": 0.0,
+      "verdict": "FAIL",
+      "reasoning": "The AI answer is not faithful as it does not address the question about the retention period for complaint records, and the source documents do not provide this information.",
+      "unsupported_claims": [
+        "The context provided does not specify how long firms must retain complaint records."
+      ],
+      "guardrail_action": "BLOCK",
+      "top_similarity": 0.5499,
+      "duration_ms": 914.1
+    },
+    {
+      "query_num": 16,
+      "question": "What is the FCA's Treating Customers Fairly principle?",
+      "answer": "The context provided does not include information about the FCA's Treating Customers Fairly principle.",
+      "faithfulness_score": 0.0,
+      "verdict": "FAIL",
+      "reasoning": "The AI answer incorrectly states that the context does not include information about the FCA's Treating Customers Fairly principle, while the source documents do provide relevant information about treating vulnerable customers fairly, which is part of the broader Treating Customers Fairly principle.",
+      "unsupported_claims": [
+        "The context provided does not include information about the FCA's Treating Customers Fairly principle."
+      ],
+      "guardrail_action": "BLOCK",
+      "top_similarity": 0.588,
+      "duration_ms": 999.5
+    },
+    {
+      "query_num": 17,
+      "question": "What are the FCA's 12 principles for businesses?",
+      "answer": "The context provided does not include information about the FCA's 12 principles for businesses.",
+      "faithfulness_score": 1.0,
+      "verdict": "PASS",
+      "reasoning": "The AI answer correctly states that the context does not include information about the FCA's 12 principles for businesses.",
+      "unsupported_claims": [],
+      "guardrail_action": "SERVE",
+      "top_similarity": 0.4776,
+      "duration_ms": 940.0
+    },
+    {
+      "query_num": 18,
+      "question": "What does the FCA require firms to do about financial promotions?",
+      "answer": "The context provided does not include information about the FCA's requirements for firms regarding financial promotions.",
+      "faithfulness_score": 1.0,
+      "verdict": "PASS",
+      "reasoning": "The AI answer accurately reflects the lack of information in the provided sources regarding FCA requirements for financial promotions.",
+      "unsupported_claims": [],
+      "guardrail_action": "SERVE",
+      "top_similarity": 0.5113,
+      "duration_ms": 1331.2
+    },
+    {
+      "query_num": 19,
+      "question": "How does the FCA define a vulnerable customer?",
+      "answer": "The FCA defines a vulnerable customer as someone who, due to their personal circumstances, is especially susceptible to harm.",
+      "faithfulness_score": 0.5,
+      "verdict": "FLAG",
+      "reasoning": "The AI answer provides a general definition of a vulnerable customer that aligns with the FCA's focus on susceptibility to harm due to personal circumstances. However, the source documents provided do not contain the specific definition or details from the FCA guidance, making it difficult to fully verify the faithfulness of the AI's response.",
+      "unsupported_claims": [
+        "The specific definition of a vulnerable customer as provided by the FCA."
+      ],
+      "guardrail_action": "SERVE_WITH_WARNING",
+      "top_similarity": 0.7156,
+      "duration_ms": 1455.0
+    },
+    {
+      "query_num": 20,
+      "question": "What are the consequences of breaching FCA consumer duty requirements?",
+      "answer": "The context provided does not specify the consequences of breaching FCA consumer duty requirements.",
+      "faithfulness_score": 0.7,
+      "verdict": "PASS",
+      "reasoning": "The AI answer is partially faithful as the source documents do not provide specific information about the consequences of breaching FCA consumer duty requirements, but the AI correctly identifies the lack of relevant context.",
+      "unsupported_claims": [],
+      "guardrail_action": "SERVE",
+      "top_similarity": 0.5463,
+      "duration_ms": 907.5
+    }
+  ]
+}
