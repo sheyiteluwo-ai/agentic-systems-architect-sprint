@@ -1,8 +1,8 @@
 {
-  "eval_date": "2026-05-13T19:12:14.349724+00:00",
+  "eval_date": "2026-05-13T19:43:07.108065+00:00",
   "sprint_day": 22,
   "total_scenarios": 3,
-  "average_overall_score": 0.71,
+  "average_overall_score": 0.733,
   "benchmark": 0.8,
   "benchmark_status": "FAIL",
   "dimensions_evaluated": [
@@ -18,16 +18,16 @@
       "question": "What are the key obligations for UK employers under the Worker Protection Act 2023?",
       "scores": {
         "research_completeness": 0.7,
-        "research_accuracy": 0.6,
+        "research_accuracy": 0.75,
         "report_structure": 0.8,
         "report_clarity": 0.7,
         "pipeline_coherence": 0.6,
-        "reasoning": "The output lacks full coverage of expected topics such as EHRC and October 2024, and the research accuracy is affected by incomplete information on key obligations.",
-        "overall": 0.68
+        "reasoning": "The output covers key obligations like third-party harassment but lacks details on EHRC, reasonable steps, and the October 2024 timeline, affecting coherence and completeness.",
+        "overall": 0.71
       },
       "pipeline_output": {
-        "research_length": 3777,
-        "report_length": 4027
+        "research_length": 4231,
+        "report_length": 4140
       }
     },
     {
@@ -36,15 +36,15 @@
       "scores": {
         "research_completeness": 0.8,
         "research_accuracy": 0.75,
-        "report_structure": 0.7,
-        "report_clarity": 0.7,
-        "pipeline_coherence": 0.6,
-        "reasoning": "The output lacks full details on required contract elements and is incomplete in sections, affecting coherence and clarity.",
-        "overall": 0.71
+        "report_structure": 0.8,
+        "report_clarity": 0.75,
+        "pipeline_coherence": 0.8,
+        "reasoning": "The output covers key topics but lacks specific details on job title, pay, and working hours, and the report is incomplete.",
+        "overall": 0.78
       },
       "pipeline_output": {
-        "research_length": 4247,
-        "report_length": 4090
+        "research_length": 4658,
+        "report_length": 3759
       }
     },
     {
@@ -54,14 +54,14 @@
         "research_completeness": 0.7,
         "research_accuracy": 0.75,
         "report_structure": 0.8,
-        "report_clarity": 0.75,
-        "pipeline_coherence": 0.7,
-        "reasoning": "The output partially covers expected topics but lacks depth in areas like indemnity and negotiation, and the report is incomplete.",
-        "overall": 0.74
+        "report_clarity": 0.7,
+        "pipeline_coherence": 0.6,
+        "reasoning": "The output lacks coverage of expected topics such as indemnity, consequential loss, and negotiation, and the report is incomplete and partially repetitive.",
+        "overall": 0.71
       },
       "pipeline_output": {
-        "research_length": 4088,
-        "report_length": 3429
+        "research_length": 4126,
+        "report_length": 3169
       }
     }
   ]
