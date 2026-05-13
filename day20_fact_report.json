@@ -1,0 +1,111 @@
+{
+  "session_date": "2026-05-13T13:53:47.122146+00:00",
+  "topic": "UK Worker Protection Act 2023",
+  "test_1_correct_research": {
+    "topic": "UK Worker Protection Act 2023",
+    "total_claims": 6,
+    "verified_count": 5,
+    "flagged_count": 1,
+    "verification_rate": 83.3,
+    "verified_claims": [
+      {
+        "claim": "The Worker Protection (Amendment of Equality Act 2010) Act 2023 received Royal Assent on 26 October 2023.",
+        "verified": true,
+        "confidence": 0.95,
+        "status": "VERIFIED",
+        "notes": "The Worker Protection (Amendment of Equality Act 2010) Act 2023 did receive Royal Assent on 26 October 2023."
+      },
+      {
+        "claim": "The Act introduces a new proactive duty on employers to take reasonable steps to prevent sexual harassment of their employees.",
+        "verified": true,
+        "confidence": 0.95,
+        "status": "VERIFIED",
+        "notes": "The UK Worker Protection Act 2023 includes a duty for employers to take reasonable steps to prevent sexual harassment."
+      },
+      {
+        "claim": "The Equality and Human Rights Commission (EHRC) has the power to enforce the duty introduced by the Act.",
+        "verified": true,
+        "confidence": 0.95,
+        "status": "VERIFIED",
+        "notes": "The UK Worker Protection Act 2023 grants the EHRC enforcement powers for the new duty."
+      },
+      {
+        "claim": "Employment tribunals can uplift compensation by up to 25% where an employer has breached the preventive duty.",
+        "verified": true,
+        "confidence": 0.95,
+        "status": "VERIFIED",
+        "notes": "The UK Worker Protection Act 2023 allows employment tribunals to uplift compensation by up to 25% for breaches of the preventive duty."
+      },
+      {
+        "claim": "Employers should conduct risk assessments and update their harassment policies.",
+        "verified": true,
+        "confidence": 0.95,
+        "status": "VERIFIED",
+        "notes": "The UK Worker Protection Act 2023 requires employers to conduct risk assessments and update harassment policies."
+      }
+    ],
+    "flagged_claims": [
+      {
+        "claim": "The Worker Protection (Amendment of Equality Act 2010) Act 2023 came into force on 26 October 2024.",
+        "verified": false,
+        "confidence": 0.85,
+        "status": "UNCERTAIN",
+        "notes": "The exact commencement date of the Worker Protection (Amendment of Equality Act 2010) Act 2023 is not confirmed in the available data."
+      }
+    ],
+    "timestamp": "2026-05-13T13:53:19.553947+00:00"
+  },
+  "test_2_wrong_inputs": {
+    "topic": "UK Worker Protection Act 2023",
+    "total_claims": 6,
+    "verified_count": 0,
+    "flagged_count": 6,
+    "verification_rate": 0.0,
+    "verified_claims": [],
+    "flagged_claims": [
+      {
+        "claim": "The Worker Protection Act 2023 was passed in March 2022.",
+        "verified": false,
+        "confidence": 0.0,
+        "status": "HALLUCINATION",
+        "notes": "The Worker Protection Act 2023 could not have been passed in March 2022 as the dates do not align."
+      },
+      {
+        "claim": "The Worker Protection Act 2023 requires employers to pay a mandatory fine of \u00a350,000 for any harassment incident.",
+        "verified": false,
+        "confidence": 0.7,
+        "status": "UNCERTAIN",
+        "notes": "The Worker Protection Act 2023 does not specify a mandatory fine of \u00a350,000 for any harassment incident; further details are needed to confirm specific penalties."
+      },
+      {
+        "claim": "The Worker Protection Act 2023 was introduced by the Scottish Parliament.",
+        "verified": false,
+        "confidence": 0.9,
+        "status": "UNVERIFIED",
+        "notes": "The Worker Protection Act 2023 was introduced by the UK Parliament, not the Scottish Parliament."
+      },
+      {
+        "claim": "The Worker Protection Act 2023 only applies in Scotland.",
+        "verified": false,
+        "confidence": 0.85,
+        "status": "UNVERIFIED",
+        "notes": "The Worker Protection Act 2023 is UK-wide legislation and does not apply only in Scotland."
+      },
+      {
+        "claim": "Employers must file monthly harassment reports with HMRC under the Worker Protection Act 2023.",
+        "verified": false,
+        "confidence": 0.1,
+        "status": "HALLUCINATION",
+        "notes": "There is no requirement under the Worker Protection Act 2023 for employers to file monthly harassment reports with HMRC."
+      },
+      {
+        "claim": "The compensation uplift under the Worker Protection Act 2023 is capped at 5%.",
+        "verified": false,
+        "confidence": 0.7,
+        "status": "UNCERTAIN",
+        "notes": "The Worker Protection Act 2023 does not specify a 5% cap on compensation uplift; further details are needed."
+      }
+    ],
+    "timestamp": "2026-05-13T13:53:31.892252+00:00"
+  }
+}
