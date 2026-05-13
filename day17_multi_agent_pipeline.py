@@ -18,6 +18,10 @@ Pipeline:
 Use Case: Magic Circle Law Firm — Live Legal Research
 The pipeline finds current legal information, not just training data.
 
+FIXES APPLIED:
+    FIX 1 → DuckDuckGoSearchRun imported from langchain_community
+             instead of crewai_tools (moved in newer versions)
+
 GitHub: github.com/sheyiteluwo-ai/agentic-systems-architect-sprint
 """
 
@@ -33,7 +37,7 @@ def build_research_pipeline(topic: str):
     Builds a 3-agent research pipeline with live web search.
     """
     from crewai import Agent, Task, Crew, Process
-    from crewai_tools import SerperDevTool, DuckDuckGoSearchRun
+    from langchain_community.tools import DuckDuckGoSearchRun
 
     print(f"\n  Topic: {topic}")
     print(f"  Agents: Web Searcher + Summariser + Report Writer")
@@ -111,7 +115,7 @@ def build_research_pipeline(topic: str):
             f"2. Recent case law or tribunal decisions\n"
             f"3. FCA or regulatory guidance if applicable\n"
             f"4. Recent legal commentary from authoritative sources\n"
-            f"5. Any 2024–2026 updates or changes\n\n"
+            f"5. Any 2024-2026 updates or changes\n\n"
             f"Search multiple times with different queries to get "
             f"comprehensive results."
         ),
