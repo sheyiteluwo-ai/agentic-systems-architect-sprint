@@ -15,12 +15,11 @@ Agents:
 Pipeline:
     Web Searcher → Summariser → Report Writer
 
-Use Case: Magic Circle Law Firm — Live Legal Research
-The pipeline finds current legal information, not just training data.
-
 FIXES APPLIED:
     FIX 1 → DuckDuckGoSearchRun imported from langchain_community
-             instead of crewai_tools (moved in newer versions)
+    FIX 2 → ddgs package installed
+    FIX 3 → DuckDuckGo wrapped with CrewAI @tool decorator
+             (CrewAI 0.193 requires native CrewAI tool format)
 
 GitHub: github.com/sheyiteluwo-ai/agentic-systems-architect-sprint
 """
@@ -32,19 +31,40 @@ from datetime import datetime, timezone
 load_dotenv()
 
 
+# ── CrewAI-Compatible Web Search Tool ────────────────────────────────────────
+
+def create_search_tool():
+    """
+    Wraps DuckDuckGoSearchRun with CrewAI's @tool decorator.
+    Required in CrewAI 0.193+ — LangChain tools must be wrapped.
+    """
+    from crewai.tools import tool
+    from langchain_community.tools import DuckDuckGoSearchRun
+
+    duckduckgo = DuckDuckGoSearchRun()
+
+    @tool("Web Search Tool")
+    def web_search(query: str) -> str:
+        """
+        Search the web for current information on a given query.
+        Use this to find recent legal news, legislation, and case law.
+        """
+        return duckduckgo.run(query)
+
+    return web_search
+
+
 def build_research_pipeline(topic: str):
     """
     Builds a 3-agent research pipeline with live web search.
     """
     from crewai import Agent, Task, Crew, Process
-    from langchain_community.tools import DuckDuckGoSearchRun
 
     print(f"\n  Topic: {topic}")
     print(f"  Agents: Web Searcher + Summariser + Report Writer")
     print(f"  Process: Sequential with web search\n")
 
-    # Use DuckDuckGo — no API key needed
-    search_tool = DuckDuckGoSearchRun()
+    search_tool = create_search_tool()
 
     # ── Agent 1: Web Searcher ─────────────────────────────────────────────────
     web_searcher = Agent(
@@ -110,7 +130,7 @@ def build_research_pipeline(topic: str):
         description=(
             f"Search the web for current legal information on:\n\n"
             f"TOPIC: {topic}\n\n"
-            f"Use your search tool to find:\n"
+            f"Use your Web Search Tool to find:\n"
             f"1. Current UK legislation relevant to this topic\n"
             f"2. Recent case law or tribunal decisions\n"
             f"3. FCA or regulatory guidance if applicable\n"
