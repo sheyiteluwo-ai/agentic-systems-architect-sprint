@@ -1,0 +1,68 @@
+{
+  "eval_date": "2026-05-13T19:12:14.349724+00:00",
+  "sprint_day": 22,
+  "total_scenarios": 3,
+  "average_overall_score": 0.71,
+  "benchmark": 0.8,
+  "benchmark_status": "FAIL",
+  "dimensions_evaluated": [
+    "research_completeness",
+    "research_accuracy",
+    "report_structure",
+    "report_clarity",
+    "pipeline_coherence"
+  ],
+  "results": [
+    {
+      "scenario_id": "S01",
+      "question": "What are the key obligations for UK employers under the Worker Protection Act 2023?",
+      "scores": {
+        "research_completeness": 0.7,
+        "research_accuracy": 0.6,
+        "report_structure": 0.8,
+        "report_clarity": 0.7,
+        "pipeline_coherence": 0.6,
+        "reasoning": "The output lacks full coverage of expected topics such as EHRC and October 2024, and the research accuracy is affected by incomplete information on key obligations.",
+        "overall": 0.68
+      },
+      "pipeline_output": {
+        "research_length": 3777,
+        "report_length": 4027
+      }
+    },
+    {
+      "scenario_id": "S02",
+      "question": "What must be included in a UK employment contract under the Employment Rights Act 1996?",
+      "scores": {
+        "research_completeness": 0.8,
+        "research_accuracy": 0.75,
+        "report_structure": 0.7,
+        "report_clarity": 0.7,
+        "pipeline_coherence": 0.6,
+        "reasoning": "The output lacks full details on required contract elements and is incomplete in sections, affecting coherence and clarity.",
+        "overall": 0.71
+      },
+      "pipeline_output": {
+        "research_length": 4247,
+        "report_length": 4090
+      }
+    },
+    {
+      "scenario_id": "S03",
+      "question": "What are the risks of unlimited liability clauses in UK commercial contracts?",
+      "scores": {
+        "research_completeness": 0.7,
+        "research_accuracy": 0.75,
+        "report_structure": 0.8,
+        "report_clarity": 0.75,
+        "pipeline_coherence": 0.7,
+        "reasoning": "The output partially covers expected topics but lacks depth in areas like indemnity and negotiation, and the report is incomplete.",
+        "overall": 0.74
+      },
+      "pipeline_output": {
+        "research_length": 4088,
+        "report_length": 3429
+      }
+    }
+  ]
+}
