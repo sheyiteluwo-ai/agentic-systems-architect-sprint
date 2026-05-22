@@ -1,5 +1,5 @@
 # Day 32 — NHS Patient Triage Agent
-**Date:** 2026-05-21
+**Date:** 2026-05-22
 **Sprint:** 42-Day Agentic AI Zero-to-Hero (Day 32 of 42)
 **Phase:** 3 — Enterprise MCP Architect (Days 29–42)
 
@@ -102,8 +102,8 @@ Patient Input
 
 | Screenshot | Filename |
 |---|---|
-| Patient NHS-001 and NHS-002 results | `day32_nhs_triage_agent_2026-05-21.png` |
-| Patient NHS-003 HITL gate + report | `day32_nhs_triage_hitl_2026-05-21.png` |
+| Patient NHS-001 and NHS-002 results | `day32_nhs_triage_agent_2026-05-22.png` |
+| Patient NHS-003 HITL gate + report | `day32_nhs_triage_hitl_2026-05-22.png` |
 
 ---
 
@@ -157,7 +157,7 @@ git push origin main
 ## LinkedIn Posts
 
 ### Post 1 — Monday 9 June, 7:30am
-**Screenshot:** Terminal output showing Patient NHS-003 HITL gate firing — where it prints `⚠️ CLINICIAN REVIEW REQUIRED` and pauses for input. Save as `day32_nhs_triage_hitl_2026-05-21.png`
+**Screenshot:** Terminal output showing Patient NHS-003 HITL gate firing — where it prints `⚠️ CLINICIAN REVIEW REQUIRED` and pauses for input. Save as `day32_nhs_triage_hitl_2026-05-22.png`
 
 ```
 Day 32 of 42 🏥
@@ -187,7 +187,7 @@ That's not a limitation. That's the architecture.
 ```
 
 ### Post 2 — Monday 9 June, 1:00pm
-**Screenshot:** The full triage report printed in the terminal for Patient NHS-003 — showing the structured report with red flags, medication warnings and clinician review section. Save as `day32_nhs_triage_agent_2026-05-21.png`
+**Screenshot:** The full triage report printed in the terminal for Patient NHS-003 — showing the structured report with red flags, medication warnings and clinician review section. Save as `day32_nhs_triage_agent_2026-05-22.png`
 
 ```
 The NHS spends £2.4 billion a year on avoidable A&E admissions.
@@ -218,8 +218,8 @@ That's the pitch that gets the contract.
 - [ ] Activate .venv312
 - [ ] Run `day32_nhs_triage_agent.py`
 - [ ] Type APPROVE when Patient NHS-003 HITL gate fires
-- [ ] Screenshot 1: HITL gate → `day32_nhs_triage_hitl_2026-05-21.png`
-- [ ] Screenshot 2: Full triage report → `day32_nhs_triage_agent_2026-05-21.png`
+- [ ] Screenshot 1: HITL gate → `day32_nhs_triage_hitl_2026-05-22.png`
+- [ ] Screenshot 2: Full triage report → `day32_nhs_triage_agent_2026-05-22.png`
 - [ ] Git commit + push (commit #41)
 - [ ] Schedule LinkedIn posts for Mon 9 Jun (7:30am + 1:00pm)
 - [ ] Confirm Day 32 complete ✅

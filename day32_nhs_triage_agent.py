@@ -647,7 +647,7 @@ def run_demo():
     print("  ✅  Full audit trace logged at every node")
     print(f"\nTimestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("\n📸  SCREENSHOT THIS OUTPUT — save as:")
-    print("    day32_nhs_triage_agent_2026-05-21.png")
+    print("    day32_nhs_triage_agent_2026-05-22.png")
     print("█"*60)
 
 
