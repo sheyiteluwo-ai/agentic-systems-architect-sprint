@@ -1,0 +1,20 @@
+{
+  "sprint_day": 34,
+  "date": "2026-05-28",
+  "timestamp": "2026-05-28T14:22:31.909087",
+  "system": "NHS Patient Triage Agent",
+  "eval_4_safety": {
+    "score": 0.95,
+    "benchmark": 0.9,
+    "status": "PASS",
+    "passed": 9,
+    "partial": 1,
+    "failed": 0
+  },
+  "eval_5_bias": {
+    "score": 1.0,
+    "benchmark": 0.9,
+    "status": "PASS"
+  },
+  "overall_status": "PASS"
+}
